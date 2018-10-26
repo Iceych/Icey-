@@ -1,0 +1,295 @@
+.page2{
+	background: url(../img/bg2.jpg);
+	background-size:100% 100%;
+	position: relative;
+}
+.page2 .content{
+	width: 90%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.page2 .content ul{
+	width: 100%;
+	height: 100%;
+}
+.page2 .content .first-li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	position: absolute;
+	left: -25%;
+	opacity: 0;
+}
+.page2 .content .first{
+	background: #ba292e;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 0%;
+	/*transition: all .5s;*/
+}
+.page2 .content .first-content{
+	text-align: center;
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 20%;
+}
+.page2 .content .first-ico{
+	background: url(../img/fwxm_img1.png) no-repeat;
+	height: 110px;
+	width: 110px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-position:top;
+	transition: all .3s; 
+}
+.page2 .content .first-content h2{
+	color: white;
+	font-size: 17px;
+	margin-top: 16px;
+	font-weight: 400;
+	line-height: 44px;
+}
+.page2 .content .first-content p{
+	color: white;
+	font-size: 15px;
+	line-height: 30px;
+}
+.page2 .content .first-content .first-des{
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 26px;
+}
+.page2 .content .first-content .first-ask{
+	width: 145px;
+	height: 35px;
+	margin: 35px auto 0px;
+}
+.page2 .content .first-content .first-ask a{
+	display: block;
+	width: 143px;
+	height: 33px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 33px;
+	font-size: 17px;
+	text-align: center;
+	display: none;
+} 
+
+.page2 .content .second-li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	position: absolute;
+	left: 0%;
+	opacity: 0;
+}
+.page2 .content .second{
+	background: #1599a5;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 0%;
+	/*transition: all .5s;*/
+}
+.page2 .content .second-content{
+	text-align: center;
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 20%;
+}
+.page2 .content .second-ico{
+	background: url(../img/fwxm_img2.png) no-repeat;
+	height: 110px;
+	width: 110px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-position:top;
+	transition: all .3s;
+}
+.page2 .content .second-content h2{
+	color: white;
+	font-size: 17px;
+	margin-top: 16px;
+	font-weight: 400;
+	line-height: 44px;
+}
+.page2 .content .second-content p{
+	color: white;
+	font-size: 15px;
+	line-height: 30px;
+}
+.page2 .content .second-content .second-des{
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 26px;
+}
+.page2 .content .second-content .second-ask{
+	width: 145px;
+	height: 35px;
+	margin: 35px auto 0px;
+}
+.page2 .content .second-content .second-ask a{
+	display: block;
+	width: 143px;
+	height: 33px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 33px;
+	font-size: 17px;
+	text-align: center;
+	display: none;
+} 
+
+.page2 .content .third-li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	position: absolute;
+	right: 0%;
+	opacity: 0;
+}
+.page2 .content .third{
+	background: #5e904d;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 0%;
+	/*transition: all .5s;*/
+}
+.page2 .content .third-content{
+	text-align: center;
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 20%;
+}
+.page2 .content .third-ico{
+	background: url(../img/fwxm_img3.png) no-repeat;
+	height: 110px;
+	width: 110px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-position:top;
+	transition: all .3s;
+}
+.page2 .content .third-content h2{
+	color: white;
+	font-size: 17px;
+	margin-top: 16px;
+	font-weight: 400;
+	line-height: 44px;
+}
+.page2 .content .third-content p{
+	color: white;
+	font-size: 15px;
+	line-height: 30px;
+}
+.page2 .content .third-content .third-des{
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 26px;
+}
+.page2 .content .third-content .third-ask{
+	width: 145px;
+	height: 35px;
+	margin: 35px auto 0px;
+}
+.page2 .content .third-content .third-ask a{
+	display: block;
+	width: 143px;
+	height: 33px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 33px;
+	font-size: 17px;
+	text-align: center;
+	display: none;
+} 
+
+.page2 .content .fourth-li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	position: absolute;
+	right: -25%;
+	opacity: 0;
+}
+.page2 .content .fourth{
+	background: #5d4378;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 0%;
+	/*transition: all .5s;*/
+}
+.page2 .content .fourth-content{
+	text-align: center;
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 20%;
+}
+.page2 .content .fourth-ico{
+	background: url(../img/fwxm_img4.png) no-repeat;
+	height: 110px;
+	width: 110px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-position:top;
+	transition: all .3s;
+}
+.page2 .content .fourth-content h2{
+	color: white;
+	font-size: 17px;
+	margin-top: 16px;
+	font-weight: 400;
+	line-height: 44px;
+}
+.page2 .content .fourth-content p{
+	color: white;
+	font-size: 15px;
+	line-height: 30px;
+}
+.page2 .content .fourth-content .fourth-des{
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 26px;
+}
+.page2 .content .fourth-content .fourth-ask{
+	width: 145px;
+	height: 35px;
+	margin: 35px auto 0px;
+}
+.page2 .content .fourth-content .fourth-ask a{
+	display: block;
+	width: 143px;
+	height: 33px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 33px;
+	font-size: 17px;
+	text-align: center;
+	display: none;
+} 
+

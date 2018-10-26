@@ -1,0 +1,345 @@
+/*清除默认样式*/
+*{margin: 0;padding: 0;}
+/*去掉a标签自带的下划线*/
+a{text-decoration: none;}
+/*去掉列表符小圆点*/
+li{list-style: none;}
+input{border: none;}
+
+.clearfloat::after{
+				content: "";
+				display: block;
+				width: 100%;
+				height:0;
+				font-size: 0;
+				clear: both;
+				/*清除浮动元素对后面元素造成的影响*/
+				/*清除浮动在浮动元素的父级身上加after*/
+}
+
+/*导航栏样式*/
+nav{
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+	background: white;
+	
+}
+nav .logo{
+	float: left;
+	padding: 
+	px 0px 9px 50px;
+}
+nav .navigator{
+	float: right;
+	padding: 10px 145px 10px 0;
+}
+nav .navigator li{
+	float: left;
+	padding: 9px 0;
+}
+nav .navigator li img{
+	padding: 0 16px;
+}
+nav .navigator li a{
+	color: #7f6666;
+	font-size: 16px;
+}
+nav .navigator li a:hover{
+	color:#90c46b;
+}
+
+.one{
+	height: 300px;
+    
+}
+.one img{
+	margin-top: 45px;
+	height: 270px;
+	width: 100%;
+}
+
+
+
+
+.twe{
+	height: 794px;
+	width: 100%;
+	background: #FFFFFF;
+	 margin-top: 40px;
+}
+.twe .good{
+  
+   width: 70%;
+   margin: 0 auto;
+}
+
+/*上端文字框*/
+.twe .good .MY{
+	 
+	width: 95%;
+margin: 0 auto;
+	
+}
+.twe .good .MY h1{
+	font-size: 28px;
+    color: #333;
+    line-height: 35px;
+    margin: 15px 0;
+    font-weight: normal;
+	text-align: center;
+	padding: 20px;
+}
+.MY p{
+	font-family: "微软雅黑";
+	padding: 0 0 17.6px;
+}
+.MY .wenzi2 p{
+	display: block;
+	font-size: 14px;
+}
+
+
+
+
+/*下端图片框*/
+.tukuang{
+	padding-top: 100px;
+	height: 270px;
+}
+.tuzuo{
+    width: 31%;
+    margin: 0 1.1%;
+    float: left;
+    text-align: center;
+   
+}
+.F1{
+	 transition: 1s;	
+}
+.tuzuo:hover .F1{
+		transform: rotateY(180deg);
+}
+.tuzzhong{
+	    width: 31%;
+    margin: 0 1.1%;
+    float: left;
+    text-align: center;
+}
+.F2{
+	transition: 1s;
+}
+.tuzzhong:hover .F2{
+	transform: rotate(180deg);
+}
+.tuyou{
+	width: 31%;
+    margin: 0 1.1%;
+    float: left;
+    text-align: center;
+}
+.F3{
+	transition: 1S;
+}
+.tuyou:hover .F3{
+	transform:   rotate(200deg) scale(1);
+	
+}
+.tukuang h2{
+	    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+    font-weight: normal;
+}
+
+
+
+
+.threre{
+	
+	padding-top: 20px;
+	height: 600px;
+	background: #f6f6f6;
+	
+}
+.threre-f{
+	width: 90%;
+	margin: 0 auto;
+}
+.threre .title1{
+	width: 100%;
+	text-align: center;
+}
+.threre .title1 h1{
+	font-size: 28px;
+    color: #333;
+    line-height: 35px;
+    margin: 10px 40px;
+    font-weight: normal;
+}
+.threre .title1 span{
+	    font-size: 16px;
+        color: #666;
+}
+.threre .tu2{
+	padding-left: 160px;
+	width: 100%;
+    overflow: hidden;/*内容会被修剪，并且其余内容是不可见的。*/
+    clear: both;
+    margin: 20px auto ;
+ 
+    
+}
+.tu2 dl{
+	width: 360px;
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 40px;
+    overflow: hidden;
+    color: #333;
+    line-height: 26px;
+    
+}
+.tu2 dl img{
+	height: 10%;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+.tu2 dl:hover .xf1{
+	box-shadow: 0 2px 5px 0 rgb(0,0,0,0.5);
+
+}
+.tu2 dl:hover .xf2{
+	box-shadow: 0 2px 5px 0 rgb(0,0,0,0.5);
+
+}
+.tu2 dl:hover .xf3{
+	box-shadow: 0 2px 5px 0 rgb(0,0,0,0.5);
+
+}
+
+.tu2 dl a{
+	font-size: 25px;
+	color: #333;
+	
+}
+.tu2 dl a:hover{
+	color: #666666;
+}
+dt{
+	display: block;
+}
+
+
+
+
+
+
+.four{
+	height: 697px;
+	background: #FFFFFF;
+	overflow:hidden;
+}
+.team_box{
+	padding-top: 80px;
+    overflow: hidden;
+   
+    
+}
+.team{
+	width: 1200px;
+    margin: 0px auto;
+    overflow:hidden;
+    
+}
+.four-title h1{
+	text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: normal;
+}
+.top p{
+	font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+}
+.team .tu3{
+	width: 100%;
+    clear: both;
+   
+    margin: 25px auto;
+}
+.tu3 .tu-left{
+    width: 66.6%;
+    float: left;
+}
+.tu-left img{
+	width: 50%;
+    height: 220px;
+    border: 1.5px solid #FFF;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    background-position: center top;
+    
+}
+.tu3 .tu-right{
+	width: 33.3%;
+    float: right;
+    margin-top: 1px;
+}
+.tu-right img{
+	width: 100%;
+    height: 438px;
+    overflow: hidden;
+    position: relative;
+    background-position: center top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    height: 108px;
+    overflow:hidden
+    margin-top: 0;
+    background: #0e0e0e;
+}
+.footer-wenzi{
+	padding: 26px 0;
+    width: 100%;
+    background: #0e0e0e;
+}
+.footer-yang{
+	margin: 0 auto;
+    width: 1160px;
+     background: url(../img/footer_logo.png)no-repeat right center;;
+    color: #b6b3b3;
+    line-height: 28px;
+}
+.footer-yang a{
+	color: #b6b3b3;
+    margin: 0 6px;
+}
+.footer-yang a:hover{
+	text-decoration: underline;
+}

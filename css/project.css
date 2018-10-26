@@ -1,0 +1,216 @@
+/*清楚默认样式*/
+*{margin: 0;padding: 0;}
+/*去掉a标签自带的下划线*/
+a{text-decoration: none;}
+/*去掉列表符小圆点*/
+li{list-style: none;}
+input{border: none;}
+/*清除浮动*/
+.clearfloat::after{
+				content: "";
+				display: block;
+				width: 100%;
+				height:0;
+				font-size: 0;
+				clear: both;
+				/*清除浮动元素对后面元素造成的影响*/
+				/*清除浮动在浮动元素的父级身上加after*/
+}
+
+/*导航栏样式*/
+nav{
+	width: 100%;
+	z-index: 20;
+	background: white;
+}
+nav .logo{
+	float: left;
+	padding: 9px 0px 9px 50px;
+}
+nav .navigator{
+	float: right;
+	padding: 10px 145px 10px 0;
+}
+nav .navigator li{
+	float: left;
+	padding: 9px 0;
+}
+nav .navigator li img{
+	padding: 0 16px;
+}
+nav .navigator li a{
+	color: #7f6666;
+	font-size: 16px;
+}
+nav .navigator li a:hover{
+	color: #9fcc4b;
+}
+/*背景栏*/
+.bg img{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 15px;
+}
+
+/*内容栏*/
+.main{
+	width: 1920px;
+	height: 1000px;
+}
+.main .main1{
+	width: 1920px;
+	height: 50px;
+	border-bottom: 1px solid #eee;
+}
+.main .main1 .top{
+	width: 500px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 4px;
+}
+.main .top span{
+     font-size: 16px;
+     font-family: "微软雅黑";
+     color: black;
+    padding-left: 45px;
+}
+.main .top span:hover{
+     color: #9fcc4b;
+}
+
+.main .main2{
+	width: 1160px;
+	height: 754px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.main .main2 .top1{
+	width: 366px;
+	height: 870px;
+	float: left;
+}
+.main .main2 .top1 .t1{
+	width: 366px;
+	height: 280px;
+}
+.main .main2 .top1 img{
+	width: 366px;
+	height: 240px;
+}
+.main .main2 .top1 .t1{
+	background: #f5f2f0;
+}
+.main .main2 .top1 .t1 span{
+	padding-left: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+.main .main2 .top1 .t1 span:hover{
+	color: #9fcc4b;
+}
+
+.main .main2 .top2{
+	width: 366px;
+	height: 870px;
+	float: left;
+}
+.main .main2 .top2 .t2{
+	width: 366px;
+	height: 280px;
+}
+.main .main2 .top2 img{
+	width: 366px;
+	height: 240px;
+}
+.main .main2 .top2 .t2{
+	background: #f5f2f0;
+}
+.main .main2 .top2 .t2 span{
+	padding-left: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+.main .main2 .top2 .t2 span:hover{
+	color: #9fcc4b;
+}
+.main .main2 .top3{
+	width: 366px;
+	height: 870px;
+	float: left;
+}
+.main .main2 .top3 .t3{
+	width: 366px;
+	height: 280px;
+}
+.main .main2 .top3 img{
+	width: 366px;
+	height: 240px;
+}
+.main .main2 .top3 .t3{
+	background: #f5f2f0;
+}
+.main .main2 .top3 .t3 span{
+	padding-left: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+.main .main2 .top3 .t3 span:hover{
+	color: #9fcc4b;
+}
+
+.main .pagess{
+	width: 100px;
+	height: 26px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.main .pagess .pageinfo{
+	font-size: 10px;
+	color: black;
+	padding-left: 12px;
+}
+
+.main .main2 .top1 img:hover{
+	box-shadow: 0 2px 5px 0 rgb(0,0,0,0.5);
+}
+.main .main2 .top2 img:hover{
+	box-shadow: 0 2px 5px 0 rgb(0,0,0,0.5);
+}
+.main .main2 .top3 img:hover{
+	box-shadow: 0 2px 5px 0 rgb(0,0,0,0.5);
+}
+
+
+
+/*底部*/
+footer{
+	width: 100%;
+	height: 110px;
+	background: black;
+}
+footer .footer{
+	font-size: 12px;
+	color: #E5E5E5;
+	line-height: 30px;
+	padding-left: 370px;
+	padding-top: 15px;
+	font-family: "微软雅黑";
+	float: left;
+}
+footer .footer a{
+	color: #E5E5E5;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+footer .footer a:hover{
+	border-bottom: 1px solid white;
+	color: #fff;
+}
+footer .footer_logo{
+	float: right;
+} 
+footer .footer_logo img{
+	float: right;
+	padding-top: 15px;
+	padding-right: 480px;
+}

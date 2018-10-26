@@ -1,0 +1,267 @@
+/*清楚默认样式*/
+*{margin: 0;padding: 0;}
+/*去掉a标签自带的下划线*/
+a{text-decoration: none;}
+/*去掉列表符小圆点*/
+li{list-style: none;}
+input{border: none;}
+/*清除浮动*/
+.clearfloat::after{
+				content: "";
+				display: block;
+				width: 100%;
+				height:0;
+				font-size: 0;
+				clear: both;
+				/*清除浮动元素对后面元素造成的影响*/
+				/*清除浮动在浮动元素的父级身上加after*/
+}
+
+/*导航栏样式*/
+nav{
+	width: 100%;
+	z-index: 20;
+	background: white;
+}
+nav .logo{
+	float: left;
+	padding: 9px 0px 9px 50px;
+}
+nav .navigator{
+	float: right;
+	padding: 10px 145px 10px 0;
+}
+nav .navigator li{
+	float: left;
+	padding: 9px 0;
+}
+nav .navigator li img{
+	padding: 0 16px;
+}
+nav .navigator li a{
+	color: #7f6666;
+	font-size: 16px;
+}
+nav .navigator li a:hover{
+	color: #9fcc4b;
+}
+/*背景栏*/
+.bg img{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 15px;
+}
+
+/*内容栏*/
+.main{
+	width: 1200px;
+	height: 1200px;
+	margin: 0 auto;
+}
+.main section{
+	float: left;
+}
+.main section .news{
+	width: 240px;
+	height: 180px;
+	border: 1px solid #eee;
+}
+.main section .news .title{
+	background: #9fcc4b;
+	line-height: 56px;
+}
+.main section .news .title .ch{
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.main section .news .title .eg{
+	color: #fff;
+	font-family: arial;
+	font-size: 12px;
+}
+.main section .news .content{
+	height: 120px;
+}
+.main section .news .content .menu{
+	line-height: 40px;
+	padding-left: 25px ;
+	font-family: "微软雅黑";
+	color: black;
+	font-weight: bold;
+	border-top: 1px solid #eee;
+}
+.main section .news .content .menu:hover{
+	color: #9fcc4b;
+	border-left: 5px solid red;
+}
+
+.main section .tel{
+	padding-top: 20px;
+	width: 240px;
+	height: 330px;
+	border: 1px solid #eee;
+}
+.main .tel .title2{
+	background: #9fcc4b;
+	line-height: 40px;
+}
+.main section .tel .title2 .ch2{
+    color: #fff;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.main section .tel .title2 .eg2{
+	color: #fff;
+	font-family: arial;
+	font-size: 12px;
+}
+.main section .tel img{
+	width: 100%;
+	height: 100%;
+}
+.mian section .tel .content2{
+	height: 210px;
+}
+.main section .tel .content2 span{
+	padding-left: 14px;
+	font-size: 14px;
+	line-height: 26px;
+	float: left;
+	font-family: "微软雅黑";
+}
+.main section .tel .content2 span a:hover{
+	border-bottom: 1px solid black;
+} 
+
+.main aside{
+	width: 880px;
+	height: 1200px;
+    float: left;
+    padding-left: 36px;
+}
+.main aside .title3{
+	padding-top: 40px;
+}
+.main aside .title3 ul img{
+	float: left;
+}
+.main aside .title3 span{
+	font-size: 10px;
+	padding-left: 5px;
+	font-family: "微软雅黑";
+	color: black;
+}
+.main aside .title3 a{
+	font-size: 10px;
+	font-family: "微软雅黑";
+	color: black;
+}
+.main aside .title3 a:hover{
+	border-bottom: 1px solid black;
+}
+.main aside .content3{
+	padding-top: 30px;
+}
+.main aside .content3 .main1{
+	width: 880px;
+	height: 180px;
+}
+.main aside .content3 .main1 img{
+	width: 260px;
+	height: 160px;
+	float: left;
+	padding-right: 18px;
+}
+.main aside .content3 .main1 .main2{
+	float: left;
+	width: 600px;
+	height: 160px;
+}
+.main aside .content3 .main1 .main2 a{
+	float: left;
+	font-size: 18px;
+	color: #9fcc4b;
+	font-family: "微软雅黑";
+	padding-bottom: 30px;
+}
+.main aside .content3 .main1 .main2 a:hover{
+	color: black;
+}
+.main aside .content3 .main1 .main2 .th{
+	font-size: 13px;
+	float: left;
+	font-family: "微软雅黑";
+	color: black;
+	float: left;
+	padding-bottom: 40px;
+	line-height: 20px;
+}
+.main aside .content3 .main1 .main2 span a{
+	font-size: 10px;
+	float: left;
+	font-family: "微软雅黑";
+	color: black;
+	float: left;
+}
+.main aside .content3 .main1 .main2 span a:hover{
+	border-bottom: 1px solid black;
+	padding-bottom: 1px;
+}
+.main aside .content3 .main3 img{
+	width: 100%;
+	height: 100%;
+}
+.main aside .content3 .main3 .pagess{
+	width: 100px;
+	height: 26px;
+	border: 1px solid #eee;
+	margin: 0 auto;
+}
+.main aside .content3 .pagess .pageinfo{
+	font-size: 10px;
+	color: black;
+	padding-left: 12px;
+}
+.main aside .content3 .pagess:hover{
+	background: gray;
+}
+.main aside .content3 .pagess .pageinfo:hover{
+	color: #fff;
+}
+/*底部*/
+footer{
+	width: 100%;
+	height: 110px;
+	background: black;
+}
+footer .footer{
+	font-size: 12px;
+	color: #E5E5E5;
+	line-height: 30px;
+	padding-left: 370px;
+	padding-top: 15px;
+	font-family: "微软雅黑";
+	float: left;
+}
+footer .footer a{
+	color: #E5E5E5;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+footer .footer a:hover{
+	border-bottom: 1px solid white;
+	color: #fff;
+}
+footer .footer_logo{
+	float: right;
+} 
+footer .footer_logo img{
+	float: right;
+	padding-top: 15px;
+	padding-right: 480px;
+}

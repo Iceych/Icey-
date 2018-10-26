@@ -1,0 +1,244 @@
+
+.page4{
+	background: url(../img/bg4.jpg);
+	background-repeat: no-repeat;
+	/*contain：背景图等比例拉伸至整张图完整的显示在盒子中，但是可能会出现留白
+	 cover：背景图等比例拉伸至整个盒子都有背景，但是图片可能显示不完整*/
+	background-size: cover;
+	/*第一个是y方向，第二个是x方向*/
+	background-position: top center;
+	/*height: 699px;*/
+	/*margin: 0 auto;*/
+	position: relative;
+	
+	
+
+}
+.page4 .top{
+	  width: 70%;
+	  height: 20%;
+	  position: absolute;
+}
+.page4 .top1{
+	height: 100%;
+	width: 60%;  
+	left: 23%;
+	top:120%;
+	position: absolute;
+	
+}
+.page4 .top2{
+	width: 30%;
+	height: 100%;
+	left: 103%;
+	top: 140%;
+	position: absolute;
+}
+.page4 .top .top2 li{
+	text-align: center;
+	width: 20%;
+	padding: 2% 0 2%;
+	color: #FFFFFF;
+	display: inline-block;
+	border: 1px solid #263552;
+	cursor: pointer;
+}
+.page4 .bottom{
+	width: 70%;
+	height: 60%;
+	
+}
+.page4 .one .bottom1 {
+	  width: 50%;
+	  height: 100%;
+	 left: 16%;
+	 bottom:-40%;
+	  position: absolute;
+}
+.page4 .one .bottom2{
+	width: 40%;
+	height: 100%;
+	left: 55%;
+	bottom:-40%;
+	 position: absolute;
+	
+}
+.page4 .one .bottom2 .bottom2-t{
+	margin-top: -5%;
+}
+.page4 .one .bottom2 .bottom2-t li{
+	
+	   width: 20%;
+	   height: 50%;
+	   display: inline-block;
+	   
+}
+.page4 .one .bottom2  article{
+	margin-top: 2%;
+	width: 80%;
+	color: white;
+	line-height: 200%;
+	font-family: "微软雅黑";
+}
+
+
+
+.page4 .bottom .two{
+	color: #FFFFFF;
+}
+.page4 .bottom .two .bottom1{
+	width: 100%;
+	height: 100%;
+}
+.page4 .bottom .two .bottom1 .box{
+	width: 10%;
+	height: 100%;
+	
+}
+.page4 .bottom .two .bottom1 .box1{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	    left:20%;
+	    bottom: -40%;
+	    margin: 0 auto;
+	    position: absolute;
+
+}
+.page4 .bottom .two .bottom1 .box2{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	    left:40%;
+	    bottom: -40%;
+	    position: absolute;
+	   
+}
+.page4 .bottom .two .bottom1 .box3{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	    left:60%;
+	    bottom: -40%;
+	    position: absolute;
+	   
+}
+.page4 .bottom .two .bottom1 .box1 time{
+
+	width: 20%;
+	height: 50%;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius:2px;
+	padding: 1% 1%;
+	text-align: center;
+	margin: 0 8%;
+}
+.page4 .bottom .two .bottom1 .box1 h1{
+	width: 25%;
+	height: 50%;
+	margin-top: 3%;
+	font-size: 16px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.page4 .bottom .two .bottom1 .box1 article{
+	margin-top: -4%;
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 200%;
+}
+
+.page4 .bottom .two .bottom1 .box2 time{
+
+	width: 20%;
+	height: 50%;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius:2px;
+	padding: 1% 1%;
+	text-align: center;
+	margin: 0 8%;
+}
+.page4 .bottom .two .bottom1 .box2 h1{
+	width: 25%;
+	height: 50%;
+	margin-top: 3%;
+	font-size: 16px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.page4 .bottom .two .bottom1 .box2 article{
+	margin-top: -4%;
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 200%;
+}
+
+.page4 .bottom .two .bottom1 .box3 time{
+
+	width: 20%;
+	height: 50%;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius:2px;
+	padding: 1% 1%;
+	text-align: center;
+	margin: 0 8%;
+}
+.page4 .bottom .two .bottom1 .box3 h1{
+	width: 25%;
+	height: 50%;
+	margin-top: 3%;
+	font-size: 16px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.page4 .bottom .two .bottom1 .box3 article{
+	margin-top: -4%;
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 200%;
+}
+
+
+
+.page4 .bottom .three .xian{
+	width: 70%;
+	left: 18%;
+	top: 40%;
+	position:absolute;
+}
+.page4 .bottom .three .bottom1{
+	width: 70%;
+	height: 100%;
+	left: 30%;
+	top: 50%;
+	position:absolute;
+}
+.page4 .bottom .three .bottom1 .img{
+	
+	margin-left: 5%;
+}
+
+
+
+.page4 .bottom .one{
+	display: none;
+}
+.page4 .bottom .two{
+	display: none;
+}
+.page4 .bottom .three{
+	display:none
+}
+

@@ -1,0 +1,72 @@
+
+.page6{
+	background: url(../img/bg6.jpg);
+	background-repeat: no-repeat;
+	/*contain：背景图等比例拉伸至整张图完整的显示在盒子中，但是可能会出现留白
+	 cover：背景图等比例拉伸至整个盒子都有背景，但是图片可能显示不完整*/
+	background-size: cover;
+	/*第一个是y方向，第二个是x方向*/
+	background-position: top center;
+	/*height: 699px;*/
+	/*margin: 0 auto;*/
+	position: relative;
+	
+}
+.page6 .left{
+	    width: 30%;
+	    height: 40%;
+	    left: 10%;   /*20%;*/
+	    top: 25%;
+	    position: absolute;
+}
+.page6 .right{
+	  width: 30%;
+	  height: 40%;
+	  left: 70%;  /*50%*/
+	   top: 25%;
+	    position: absolute;
+}
+.page6 .right li{
+	
+	width: 70%;
+	height: 10%;
+	
+	color: #FFFFFF;
+}
+.page6 .right li img{
+	cursor: pointer;
+}
+.page6 .right li img{
+	width: 9%;
+	height: 100%;
+}
+.page6 .right li p{
+	text-align: center;
+	display: inline-block;
+}
+.page6 .right .bt1{
+	   
+	   top: 30%;
+	   position: absolute;
+}
+.page6 .right .bt2{
+	    top:50% ;
+	   position: absolute;
+}
+.page6 .right .bt3{
+	    top:70% ;
+	   position: absolute;
+}
+
+.page6 .right li:nth-child(1){
+	transform-style: preserve-3d;
+}
+.page6 .right li .qqtu:hover{
+	transform: rotateY(180deg);
+}
+.page6 .right li .email:hover{
+	transform: translateY(30%);
+}
+
+
+

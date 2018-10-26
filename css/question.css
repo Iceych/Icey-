@@ -1,0 +1,257 @@
+/*清除默认样式*/
+*{margin: 0;padding: 0;}
+/*去掉a标签自带的下划线*/
+a{text-decoration: none;}
+/*去掉列表符小圆点*/
+li{list-style: none;}
+input{border: none;}
+
+.clearfloat::after{
+				content: "";
+				display: block;
+				width: 100%;
+				height:0;
+				font-size: 0;
+				clear: both;
+				/*清除浮动元素对后面元素造成的影响*/
+				/*清除浮动在浮动元素的父级身上加after*/
+}
+
+/*导航栏样式*/
+nav{
+	
+	width: 100%;
+	z-index: 20;
+	background: white;
+	overflow: hidden;
+}
+
+nav .logo{	 
+	float: left;
+	padding: 9px 0px 9px 50px;
+}
+nav .navigator{
+	
+	float: right;
+	padding: 0px 145px 0px 0;
+}
+nav .navigator li{
+	float: left;
+	padding: 9px 0;
+}
+nav .navigator li img{
+	padding: 0 16px;
+}
+nav .navigator li a{
+	color: #7f6666;
+	font-size: 16px;
+}
+
+.one1{
+	
+}
+.one1 img{
+    
+  
+   width: 100%;
+   
+}
+
+
+.twe{
+	height: 388px;
+	width: 100%;
+	background: white;
+	
+}
+.twe-kuang{
+	height: 388px;
+	width: 90%;
+	background: url(../img/portal_ft.jpg)center bottom no-repeat;
+	margin: 0 auto;
+}
+.twe-kuang .left{
+	width: 245px;
+	height: 363px;
+	float: left;
+	background: #fafafa;
+}
+
+/*联系方式的样式设置*/
+.left .left-wen {
+	padding-left: 15px;
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    background: #90C42F;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+.left-wen .title-one{
+	color: #fafafa;
+    font-size: 18px;
+}
+.left-wen .title-twe{
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: normal;
+    color: #F0F0F0;
+}
+
+.left .xia{
+	width: 243px;
+    height: auto;
+    padding-bottom: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    min-height: 100px;
+    border: 1px solid #EEE;
+    border-top: 0;
+    background: #F6F6F6
+}
+.left .xia span{
+	float: left;
+    width: 222px;
+    padding: 2px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    overflow: hidden
+}
+
+.xia a{
+	color: #666;
+}
+.xia a:hover{
+	text-decoration: underline;
+}
+
+.right{
+	float: right;
+    width: 1050px;
+    border: 0;
+    margin-bottom: 1em;
+    background: none;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.title2 .title2-one{
+	height: 30px;
+    overflow: hidden;
+    color: #999;
+    font-size: 12px;
+    padding-top: 25px;
+    line-height: 30px;
+    
+}
+.title2 .title2-one a{
+	color: #999;
+	}
+.title2 .title2-one a:hover{
+	text-decoration: underline;
+	}
+.title2 .title2-one img{
+	animation: zooming 2s linear infinite;
+}		
+@keyframes zooming{
+	0%{transform: scale(1);}
+	50%{transform: scale(0.6);}
+	100%{transform: scale(1);}
+}
+
+.wenzi3{
+	width: 860px;
+    height: 127px;
+    margin: 0;
+    padding: 15px 10px 20px;
+    border-bottom: 1px dashed #E2E2E2;
+    
+}
+.weizi3:hover{
+	background: #666666;
+}
+.wenzi3-one .h1{
+	font-size: 18px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+/*你的项目靠不靠普的设置*/
+.wenzi3-one .h1 a{
+	color: #90C42F;
+    font-weight: 700;
+    text-decoration: none;
+}
+.wenzi3-one .h1 a:hover{
+	color:#666666;
+}
+.wenzi3-one p{
+	line-height: 28px;
+    color: #666;
+}
+.wenzi3-one span{
+	    color: #999 !important
+}
+.yesu{
+	clear: both;
+    margin: 20px;
+    overflow: hidden;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+.yesu li{
+	display: inline-block;
+    border: 1px solid #ccc;
+    padding: 2px 9px;
+    margin: 0 3px;
+    line-height: 20px;
+    background: #fff;
+    color: #999;
+}
+.yesu li:hover{
+	background: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+.footer1{
+	width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    height: 108px;
+    overflow:hidden
+    margin-top: 0;
+    background: #0e0e0e;
+}
+.footer-wenzi1{
+	padding: 26px 0;
+    width: 100%;
+    background: #0e0e0e;
+}
+.footer-yang1{
+	margin: 0 auto;
+    width: 1160px;
+    color: #b6b3b3;
+    background: url(../img/footer_logo.png)no-repeat right center;;
+    line-height: 28px;
+}
+.footer-yang1 a{
+	color: #b6b3b3;
+    margin: 0 6px;
+    line-height: 10px;
+}
+.footer-yang1 a:hover{
+	text-decoration: underline;
+}
